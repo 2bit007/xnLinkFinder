@@ -13,5 +13,5 @@ setup(
     install_requires=["argparse","requests","psutil","pyyaml","termcolor","urlparse3","beautifulsoup4","lxml","html5lib","urllib3"],
     entry_points={
     'console_scripts': [
-        'XnLinkFinder = xnLinkFinder.urless:main',
+        'XnLinkFinder = xnLinkFinder:main',
 )
