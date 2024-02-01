@@ -11,4 +11,7 @@ setup(
     url="https://github.com/xnl-h4ck3r/xnlLinkFinder",
     py_modules=["xnLinkFinder"],
     install_requires=["argparse","requests","psutil","pyyaml","termcolor","urlparse3","beautifulsoup4","lxml","html5lib","urllib3"],
+    entry_points={
+    'console_scripts': [
+        'XnLinkFinder = xnLinkFinder.urless:main',
 )
